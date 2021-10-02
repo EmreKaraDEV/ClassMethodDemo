@@ -29,13 +29,10 @@ namespace ClassMethodDemo
             {
                 switch (listLayoutDecision)
                 {
-                    case 0:
-                        Console.WriteLine("\nCustomer ID: " + customer.getId() + " First Name: " + customer.getFirstName() + " Last Name: " + customer.getLastName() + " Age: " + customer.getAge());
-                        break;
                     case 1:
                         Console.WriteLine("\nCustomer ID: " + customer.getId() + "\nFirst Name: " + customer.getFirstName() + "\nLast Name: " + customer.getLastName() + "\nAge: " + customer.getAge());
                         break;
-                    default:
+                    default: //Horizontal layout is used by default.
                         Console.WriteLine("\nCustomer ID: " + customer.getId() + " First Name: " + customer.getFirstName() + " Last Name: " + customer.getLastName() + " Age: " + customer.getAge());
                         break;
                 }
@@ -49,8 +46,7 @@ namespace ClassMethodDemo
             setFontColor(ConsoleColor.White);
         }
 
-        void setFontColor(ConsoleColor color)
-        {
+        void setFontColor(ConsoleColor color) {
             Console.ForegroundColor = color;
         }
     }
