@@ -3,7 +3,7 @@
 namespace ClassMethodDemo
 {
     class Program
-    {   //Emre Kara Github: https://github.com/emrekara-exe Web: https://emreki.art.blog/
+    {   //Emre Kara Github: https://github.com/EmreKaraDEV Web: https://emreki.art.blog/
         static void Main(string[] args)
         {
             int lastID = 0;
